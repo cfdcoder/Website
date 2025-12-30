@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+
+
+* {font-family: 'FAMILY_NAME';}
+
+	a {
+		text-decoration: none;
+		color: white |important;
+		font-weight: 500;
+	}
+	
+
+a:hover {
+	color: #d33682 |important;
+	text-decoration: none;
+}
+
+ul {list-style-type: none;}
+
+hr {
+	margin-top: 0px
+	margin-bottom: 5%;
+}
+
+@MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+html, body, .stApp {
+    height: 100%;
+}
+
+.stApp {
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.75),   /* controls darkness */
+            rgba(0, 0, 0, 0.75)
+        ),
+        url("https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1920&q=80");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
