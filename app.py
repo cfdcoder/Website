@@ -144,3 +144,21 @@ with st.expander("Numerical investigation of 2D curved shock/turbulent boundary 
             caption="Heat flux variation along the flat plate"
 
         )
+with st.expander("Design of small UAV to neutralise the enemy drones", expander= True):
+    st.markdown(
+        """
+        The small 10kg drone is conceptually designed and modelled with a radio jamming technology. This is to ensure that the enemy drone is neutralized. The payload has weight of 2kg. The performance of the drone is studied in detail.
+        """
+    )
+    col1, col2 = st.columns(2)
+    with col1:
+        st.image(
+            "images/UAV1.png",
+            caption = "CAD model of the UAV"
+        )
+    with col2:
+        st.image(
+            "image/UAV2.png",
+            caption ="Performance parameter of UAV"
+        )
+
