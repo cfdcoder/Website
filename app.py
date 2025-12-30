@@ -6,7 +6,7 @@ from PIL import Image
 ##path section
 current_dir = Path(__file__).resolve().parent
 css_file = current_dir/"styles"/"main.css"
-resume_file= current_dir/"assets"/"MASTER_RESUME_personal.pdf"
+resume_file= current_dir/"assets"/"Resume_Git.pdf"
 profile_image = current_dir/"assets"/"Profil.jpeg"
 
 ##General Settings##
@@ -161,6 +161,7 @@ with st.expander("Design of small UAV to neutralise the enemy drones", expanded=
             "images/UAV2.png",
             caption ="Performance parameter of UAV"
         )
+
 
 
 
