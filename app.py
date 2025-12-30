@@ -4,7 +4,7 @@ import streamlit as st
 from PIL import Image
 
 ##path section
-current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
+current_dir = Path(__file__).resolve().parent
 css_file = current_dir/"styles"/"main.css"
 resume_file= current_dir/"assets"/"MASTER_RESUME_personal.pdf"
 profile_image = current_dir/"assets"/"Profil.jpeg"
@@ -142,4 +142,5 @@ with st.expander("Numerical investigation of 2D curved shock/turbulent boundary 
         st.image(
             "images/SWBLI_Mach.png",
             caption="Heat flux variation along the flat plate"
+
         )
