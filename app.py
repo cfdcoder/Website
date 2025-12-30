@@ -158,8 +158,9 @@ with st.expander("Design of small UAV to neutralise the enemy drones", expanded=
         )
     with col2:
         st.image(
-            "image/UAV2.png",
+            "images/UAV2.png",
             caption ="Performance parameter of UAV"
         )
+
 
 
