@@ -163,5 +163,24 @@ with st.expander("Design of small UAV to neutralise the enemy drones", expanded=
         )
 
 
+with st.expander("Thermoacoustic Instability analysis using Rijke Tube", expanded= True):
+    st.markdown(
+        """
+        The study focuses on the study and analysis of the thermoacoustic instability using the Rijke tube, where a heating element is present. The heat element power is varied and the location is varied to further study about the impact on the thermoacoustic instability.
+        """
+    )
+    col1,col2 = st.columns(2)
+    with col1:
+        st.image(
+            "images/Thermo1.png"
+            caption""
+        )
+    with col2:
+        st.image(
+            "images/Thermo1.png"
+            caption""
+        )
+
+
 
 
